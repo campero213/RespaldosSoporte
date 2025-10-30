@@ -45,10 +45,20 @@
 	         <artifactId>jsch</artifactId>
 	         <version>0.1.55</version>  <!-- Reemplaza con la versión más reciente -->
 	     </dependency>
+		<dependency>
+		    <groupId>com.sun.mail</groupId>
+		    <artifactId>javax.mail</artifactId>
+		    <version>1.6.2</version>
+		</dependency>
 	     <dependency>
 		    <groupId>log4j</groupId>
 		    <artifactId>log4j</artifactId>
 		    <version>1.2.17</version>
+		</dependency>
+		<dependency>
+		    <groupId>com.hierynomus</groupId>
+		    <artifactId>sshj</artifactId>
+		    <version>0.32.0</version>
 		</dependency>
 	</dependencies>
 
